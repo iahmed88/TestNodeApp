@@ -1,0 +1,11 @@
+1. Right know we are assuming one user can only invest in one product in specific group
+   is that correct? 
+
+2. What should be the tenor for interest calculation in group (Product tenor Or Group tenor)
+
+3. Should interest be calculated in group per user per product(based on product) just like without group.
+
+4. if point 3 is correct then how should the interest be divided over all Group Members (should that be equally ?)
+
+
+

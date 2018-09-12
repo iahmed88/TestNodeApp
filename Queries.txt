@@ -1,0 +1,37 @@
+Group/User Management:
+- Creating Groups, Joining Group, Setting Group limit, Setting Group Tenor, Setting Admin, Changing Admin, Cancel Subscription, Implementing Consent of all users to change Admin
+Investment Management:
+- Adding funds, Investing in product, Interest Calculation, Interest calculation, Logging all members transactions, Setting up designated account
+Other:
+- Logging Transactions history, Viewing all investment, Maintaining Group Wallet history , Notifications
+Testing:
+- Testing the functionality, fix and improve the code where there is a need.
+
+
+
+
+
+
+
+
+select * from "Groups"
+select * from "GroupFunds"
+select * from "GroupWalletHistories"
+select * from "GroupMemberships"
+
+select * from "ProductTopups"
+select * from "Users"
+select * from "Transactions"
+select * from "Products"
+select * from "UserWalletHistories"
+select * from "UserProductEarnings"
+update "UserProducts" set product_id = '-LLiBNAf5XU54gaugOUX' where id = '43226007'
+update "UserProducts" set canceled = false where id = '-LLiBNR8tCEd10Coud6s'
+update "UserProducts" set canceled = false where id = '43226009'
+select * from "UserProducts"
+delete from "UserProducts" where id = '43226001'
+
+select SUM(gw.credit) as credit , SUM(gw.debit) as debit , gw.user_id  ,gw.group_id  , u.firstname
+from "GroupWalletHistories" gw inner join "Users" u on gw.user_id = u.id
+where gw.group_id = '-LLiEZ3e7irJ5-jJbERL'
+GROUP BY gw.user_id , gw.group_id ,u.firstname

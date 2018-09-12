@@ -1,0 +1,66 @@
+{
+"event": "charge.success",
+"data": {
+"id": 43226007,
+"domain": "test",
+"status": "success",
+"reference": "T359860277297046",
+"amount": 100000,
+"message": null,
+"gateway_response": "Successful",
+"paid_at": "2018-08-08T08:12:04.000Z",
+"created_at": "2018-08-08T08:11:50.000Z",
+"channel": "card",
+"currency": "NGN",
+"ip_address": "103.255.6.68",
+"metadata": {
+"type": "browserClient",
+"user_id": "-LIoCL6i-EcjwescbhrY",
+"product_id": "-LIkF5ZqVf7LWQOcDsVG",
+"group_id":null,
+"product_type": "savings",
+"action": "subscription",
+"custom_fields": [
+{
+"saving_frequency": "weekly",
+"user": "david guetta",
+"product": "Savings held with Top Tier Financial Nigerian Institution"
+}
+],
+"referrer": "https://fe-staging.kolobox.ng/app/products/new"
+},
+"log": null,
+"fees": 1500,
+"fees_split": null,
+"authorization": {
+"authorization_code": "AUTH_5ekzq486f7",
+"bin": "408408",
+"last4": "4081",
+"exp_month": "01",
+"exp_year": "2020",
+"channel": "card",
+"card_type": "visa DEBIT",
+"bank": "Test Bank",
+"country_code": "NG",
+"brand": "visa",
+"reusable": true,
+"signature": "SIG_QvMdTUGbbeECuuZ7UTyY"
+},
+"customer": {
+"id": 2735557,
+"first_name": "david",
+"last_name": "guetta",
+"email": "davidguetta.freefall@gmail.com",
+"customer_code": "CUS_ilgyhsdxy5s6ow8",
+"phone": "08086077040",
+"metadata": {
+"kolobox_id": "-LHbUrlxncv8lUEBXih1",
+"wallet": "fol1ojjph6su6"
+},
+"risk_action": "default"
+},
+"plan": {},
+"subaccount": {},
+"paidAt": "2018-08-08T08:12:04.000Z"
+}
+}
